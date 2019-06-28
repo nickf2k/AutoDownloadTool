@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="io.urf:apache-commons-configuration2-surf:0.2.0" type="repository">
+    <properties maven-id="io.urf:apache-commons-configuration2-surf:0.2.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/apache-commons-configuration2-surf-0.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/surf-0.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/globalmentor-core-0.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/globalmentor-itu-0.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/faux-pas-0.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/clogr-logback-0.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-classic-1.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-core-1.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/clogr-0.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/csar-0.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/apache-commons-configuration2-surf-0.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/surf-0.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/globalmentor-core-0.5.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/globalmentor-itu-0.5.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/faux-pas-0.5.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr305-3.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/clogr-logback-0.7.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-classic-1.1.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-core-1.1.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/clogr-0.7.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/csar-0.7.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

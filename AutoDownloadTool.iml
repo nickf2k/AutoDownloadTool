@@ -7,6 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="io.urf:apache-commons-configuration2-surf:0.2.0" level="project" />
+    <orderEntry type="library" name="com.jwebmp.jpms.commons:commons-io:0.67.0.12" level="project" />
   </component>
 </module>
-
