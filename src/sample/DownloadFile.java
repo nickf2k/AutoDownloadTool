@@ -1,27 +1,28 @@
 package sample;
 
-import ch.qos.logback.core.util.FileUtil;
-import org.apache.commons.io.FileUtils;
 
+import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.channels.Channels;
-import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 public class DownloadFile {
     private static String filePath = "F:\\HUST\\fresher\\AutoDownloadTool\\src\\sample\\fos.pdf";
     private static String sampleURL = "https://sachvui.com/sachvui-686868666888/ebooks/2018/pdf/Sachvui.Com-dan-than-sheryl-sandberg.pdf";
     public static void main(String[] args) throws IOException {
 //        DownloadFileFromURL();
-        DownLoadFileCommonsApache();
+//        DownLoadFileCommonsApache();
+        FileCopy();
     }
     private static void DownloadFileFromURL(){
         URL urlObj = null;
@@ -59,5 +60,17 @@ public class DownloadFile {
     private static void DownLoadFileCommonsApache() throws IOException {
         FileUtils.copyURLToFile(new URL(sampleURL),
                 new File(filePath), 5000,5000);
+    }
+    private static void FileCopy() throws IOException {
+        URL url = new URL(sampleURL);
+        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+        connection.setRequestProperty("User-Agent","Chrome");
+
+        try(InputStream in = url.openStream()){
+            Files.copy(in, Paths.get("fos.pdf"), StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 }
