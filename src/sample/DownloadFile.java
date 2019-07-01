@@ -17,8 +17,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 public class DownloadFile {
-    private static String filePath = "F:\\HUST\\fresher\\AutoDownloadTool\\src\\sample\\fos.pdf";
-    private static String sampleURL = "https://sachvui.com/sachvui-686868666888/ebooks/2018/pdf/Sachvui.Com-dan-than-sheryl-sandberg.pdf";
+    private static String filePath = "F:\\HUST\\fresher\\AutoDownloadTool\\fos.pdf";
+    private static String sampleURL = "https://pimg-fpiw.uspto.gov/fdd/62/346/103/0.pdf";
     public static void main(String[] args) throws IOException {
 //        DownloadFileFromURL();
 //        DownLoadFileCommonsApache();
@@ -64,13 +64,14 @@ public class DownloadFile {
     private static void FileCopy() throws IOException {
         URL url = new URL(sampleURL);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        connection.setRequestProperty("User-Agent","Chrome");
+//        connection.setRequestProperty("User-Agent","Mozilla/4.76");
 
         try(InputStream in = url.openStream()){
             Files.copy(in, Paths.get("fos.pdf"), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             e.printStackTrace();
         }
+//        System.out.println("hello");
 
     }
 }
