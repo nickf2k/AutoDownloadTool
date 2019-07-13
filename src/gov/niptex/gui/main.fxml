@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/2.2" fx:controller="gov.niptex.process.Controller">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label layoutX="197.0" layoutY="165.0" text="Nhap thong tin chieu cao"/>
+                <TextField id="tfHeight" layoutX="182.0" layoutY="197.0" prefWidth="200.0"/>
+                <Button id="btnNhap" layoutX="247.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnNhapAction"
+                        text="Nhap"/>
+            </children>
+        </AnchorPane>
+    </center>
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>
