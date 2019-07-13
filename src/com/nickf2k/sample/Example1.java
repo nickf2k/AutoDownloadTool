@@ -15,7 +15,7 @@ public class Example1 {
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(is));
         String line = null;
-        while((line=bf.readLine())!=null){
+        while ((line = bf.readLine()) != null) {
             System.out.println(line);
         }
     }
