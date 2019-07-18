@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gov/niptex/process/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gov/niptex/process/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gov/niptex/process/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gov/niptex/process/main.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="query done!&#10;init Controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoDownloadTool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoDownloadTool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fos.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fos.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutoDownloadTool/sample/fos.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoDownloadTool/sample/fos.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutoDownloadTool/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/process/Download.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/Download.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/process/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/CrawlData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nickf2k/sample/CrawlData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nickf2k/sample/DownloadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nickf2k/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoDownloadTool/com/nickf2k/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoDownloadTool/gov/niptex/gui/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoDownloadTool/gov/niptex/process/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoDownloadTool/gov/niptex/process/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoDownloadTool/sample/fos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/CrawlData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/DownloadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nickf2k/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gov/niptex/gui/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gov/niptex/process/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gov/niptex/process/Download.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/Download.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gov/niptex/process/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gov/niptex/process/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gov/niptex/process/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gov/niptex/process/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/fos.pdf" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,19 +81,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Example1.java">
+        <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="998">
+              <caret line="366" column="121" selection-start-line="366" selection-start-column="121" selection-end-line="366" selection-end-column="121" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1884#2498#0" />
+                <element signature="e#2504#2982#0" />
+                <element signature="e#3055#3056#0" expanded="true" />
+                <element signature="e#3109#3110#0" expanded="true" />
+                <element signature="e#3238#3614#0" />
+                <element signature="e#4382#5005#0" />
+                <element signature="e#5011#5593#0" />
+                <element signature="e#5599#6193#0" />
+                <element signature="e#7025#7737#0" />
+                <element signature="e#7636#7637#0" expanded="true" />
+                <element signature="e#7683#7684#0" expanded="true" />
+                <element signature="e#7725#7823#0" />
+                <element signature="e#8114#9913#0" />
+                <element signature="e#8702#8703#0" expanded="true" />
+                <element signature="e#8767#8768#0" expanded="true" />
+                <element signature="e#7927#8565#0" />
+                <element signature="e#8571#8832#0" />
+                <element signature="e#8838#9130#0" />
+                <element signature="e#9136#9514#0" />
+                <element signature="e#10586#11118#0" />
+                <element signature="e#12038#12408#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Download.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#download#0;class#Download#0" />
+                <element signature="method#downLoadFileCommonsApache#0;class#Download#0" />
+                <element signature="method#convertURLDown#0;class#Download#0" />
+                <element signature="method#convertFilePath#0;class#Download#0" />
+                <element signature="e#2017#2018#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Query.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="method#getDataInPage#0;class#Query#0" />
+                <element signature="method#query#0;class#Query#0" />
+                <element signature="method#getAllPage#0;class#Query#0" />
+                <element signature="method#convertURL#0;class#Query#0" />
+                <element signature="method#getSizeOfResult#0;class#Query#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,50 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Query.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="method#getDataInPage#0;class#Query#0" />
-                <element signature="method#query#0;class#Query#0" />
-                <element signature="e#1638#1678#1" />
-                <element signature="e#2000#2074#1" />
-                <element signature="e#2169#2214#1" />
-                <element signature="method#getAllPage#0;class#Query#0" />
-                <element signature="method#convertURL#0;class#Query#0" />
-                <element signature="method#getSizeOfResult#0;class#Query#0" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -150,8 +161,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -159,6 +170,8 @@
     <findStrings>
       <find>setPro</find>
       <find>addRe</find>
+      <find>download xong</find>
+      <find>file path</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -182,16 +195,25 @@
         <option value="$PROJECT_DIR$/src/sample/DownloadFile.java" />
         <option value="$PROJECT_DIR$/src/com/nickf2k/sample/CrawlData.java" />
         <option value="$PROJECT_DIR$/src/gov/niptex/process/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/gov/niptex/process/Download.java" />
         <option value="$PROJECT_DIR$/src/com/nickf2k/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/gov/niptex/process/Node.java" />
         <option value="$PROJECT_DIR$/src/gov/niptex/gui/main.fxml" />
         <option value="$PROJECT_DIR$/main.fxml" />
-        <option value="$PROJECT_DIR$/src/gov/niptex/process/main.fxml" />
-        <option value="$PROJECT_DIR$/src/gov/niptex/process/main.java" />
         <option value="$PROJECT_DIR$/src/com/nickf2k/sample/DownloadFile.java" />
-        <option value="$PROJECT_DIR$/src/gov/niptex/process/Query.java" />
+        <option value="$PROJECT_DIR$/src/com/nickf2k/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/process/ProcessDownloadTask.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/gui/main.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/gui/controller.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/process/main.fxml" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/gui/application.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/process/main.java" />
+        <option value="$PROJECT_DIR$/out/production/AutoDownloadTool/gov/niptex/process/main.fxml" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/gui/Task.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/gui/test.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/gui/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/process/Download.java" />
         <option value="$PROJECT_DIR$/src/gov/niptex/process/Controller.java" />
+        <option value="$PROJECT_DIR$/src/gov/niptex/process/Query.java" />
       </list>
     </option>
   </component>
@@ -215,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,39 +252,12 @@
             </path>
             <path>
               <item name="AutoDownloadTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoDownloadTool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nickf2k" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoDownloadTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoDownloadTool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nickf2k" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoDownloadTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoDownloadTool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="niptex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoDownloadTool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoDownloadTool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="niptex" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoDownloadTool" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -278,7 +274,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563038151529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563436774388" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -303,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -318,48 +314,6 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gov.niptex.process.Controller" />
-      <module name="AutoDownloadTool" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gov.niptex.process.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nickf2k.sample.DownloadFile" />
-      <module name="AutoDownloadTool" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nickf2k.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Query" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gov.niptex.process.Query" />
-      <module name="AutoDownloadTool" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gov.niptex.process.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -416,9 +370,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.Query" />
-        <item itemvalue="Application.DownloadFile" />
-        <item itemvalue="Application.Controller" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561696896794</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="query done!&#10;init Controller">
+      <created>1563038132709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563038132710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -456,9 +414,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18724832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20872483" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,8 +423,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17705382" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13404825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,7 +458,8 @@
     <MESSAGE value="test read content with buffer reader" />
     <MESSAGE value="download succesfull with text file and .html, cannot download pdf file" />
     <MESSAGE value=".pdf file from USPTO be downloaded" />
-    <option name="LAST_COMMIT_MESSAGE" value=".pdf file from USPTO be downloaded" />
+    <MESSAGE value="query done!&#10;init Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="query done!&#10;init Controller" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -560,10 +518,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.fxml" />
     <entry file="file://$PROJECT_DIR$/main1.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Example.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/javafx/event/EventHandlerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="358">
+          <caret line="237" selection-start-line="237" selection-end-line="238" />
         </state>
       </provider>
     </entry>
@@ -574,18 +532,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/ProcessDownloadTask.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/concurrent/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-2729">
+          <caret line="618" column="22" selection-start-line="618" selection-start-column="22" selection-end-line="618" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/gui/main.fxml" />
+    <entry file="file://$PROJECT_DIR$/../help.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File path">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Controller03.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/help.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/main.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" column="228" selection-start-line="7" selection-start-column="218" selection-end-line="7" selection-end-column="228" />
         </state>
       </provider>
     </entry>
@@ -596,34 +578,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/DownloadFile.java">
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/gui/controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#DownloadFileFromURL#0;class#DownloadFile#0" />
-            <element signature="method#FileCopy#0;class#DownloadFile#0" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Query.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="method#getDataInPage#0;class#Query#0" />
-            <element signature="method#query#0;class#Query#0" />
-            <element signature="e#1638#1678#1" />
-            <element signature="e#2000#2074#1" />
-            <element signature="e#2169#2214#1" />
-            <element signature="method#getAllPage#0;class#Query#0" />
-            <element signature="method#convertURL#0;class#Query#0" />
-            <element signature="method#getSizeOfResult#0;class#Query#0" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/AutoDownloadTool/gov/niptex/process/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -637,33 +620,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Download.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="123">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/gui/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/gui/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/gui/application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/DownloadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="62" selection-start-line="62" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DownloadFileFromURL#0;class#DownloadFile#0" />
+            <element signature="method#FileCopy#0;class#DownloadFile#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="242">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nickf2k/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Download.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#download#0;class#Download#0" />
+            <element signature="method#downLoadFileCommonsApache#0;class#Download#0" />
+            <element signature="method#convertURLDown#0;class#Download#0" />
+            <element signature="method#convertFilePath#0;class#Download#0" />
+            <element signature="e#2017#2018#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="998">
+          <caret line="366" column="121" selection-start-line="366" selection-start-column="121" selection-end-line="366" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1884#2498#0" />
+            <element signature="e#2504#2982#0" />
+            <element signature="e#3055#3056#0" expanded="true" />
+            <element signature="e#3109#3110#0" expanded="true" />
+            <element signature="e#3238#3614#0" />
+            <element signature="e#4382#5005#0" />
+            <element signature="e#5011#5593#0" />
+            <element signature="e#5599#6193#0" />
+            <element signature="e#7025#7737#0" />
+            <element signature="e#7636#7637#0" expanded="true" />
+            <element signature="e#7683#7684#0" expanded="true" />
+            <element signature="e#7725#7823#0" />
+            <element signature="e#8114#9913#0" />
+            <element signature="e#8702#8703#0" expanded="true" />
+            <element signature="e#8767#8768#0" expanded="true" />
+            <element signature="e#7927#8565#0" />
+            <element signature="e#8571#8832#0" />
+            <element signature="e#8838#9130#0" />
+            <element signature="e#9136#9514#0" />
+            <element signature="e#10586#11118#0" />
+            <element signature="e#12038#12408#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gov/niptex/process/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="method#getDataInPage#0;class#Query#0" />
+            <element signature="method#query#0;class#Query#0" />
+            <element signature="method#getAllPage#0;class#Query#0" />
+            <element signature="method#convertURL#0;class#Query#0" />
+            <element signature="method#getSizeOfResult#0;class#Query#0" />
           </folding>
         </state>
       </provider>

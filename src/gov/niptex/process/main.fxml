@@ -1,80 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
-<Pane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      prefHeight="420.0" prefWidth="866.0000999999975" xmlns="http://javafx.com/javafx/2.2"
-      fx:controller="gov.niptex.process.Controller">
-    <children>
-        <MenuBar layoutX="0.0" layoutY="-1.0" prefHeight="30.0" prefWidth="866.0">
-            <menus>
-                <Menu mnemonicParsing="false" text="File">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="Close"/>
-                    </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Edit">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="Delete"/>
-                    </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Help">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="About"/>
-                    </items>
-                </Menu>
-            </menus>
-        </MenuBar>
-        <Label alignment="CENTER" graphicTextGap="5.0" layoutX="83.0" layoutY="37.0" prefHeight="0.0" prefWidth="617.0"
-               text="US Patent &amp; Trademark Office, Patent Full Text and Image Database" textAlignment="RIGHT"
-               textFill="#0a7fab" textOverrun="CENTER_ELLIPSIS" underline="true">
-            <font>
-                <Font size="18.0"/>
-            </font>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="1142.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="gov.niptex.process.Controller">
+  <children>
+    <MenuBar layoutX="0.0" layoutY="-1.0" prefHeight="30.0" prefWidth="1142.0001220703125">
+      <menus>
+        <Menu mnemonicParsing="false" onAction="#stop" text="Application">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#closePlatForm" text="Close" fx:id="miClose" />
+            <MenuItem mnemonicParsing="false" onAction="#newPlatform" text="New Platform" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help" fx:id="mnHelp">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#help" text="Help" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <Label alignment="CENTER" graphicTextGap="5.0" layoutX="83.0" layoutY="37.0" prefHeight="0.0" prefWidth="617.0" text="US Patent &amp; Trademark Office, Patent Full Text and Image Database" textAlignment="RIGHT" textFill="#0a7fab" textOverrun="CENTER_ELLIPSIS" underline="true">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+    <Pane layoutX="20.0" layoutY="85.0" prefHeight="161.0" prefWidth="516.0">
+      <children>
+        <Label layoutY="7.0" prefHeight="28.0" prefWidth="59.0" text="Term 1:">
+          <font>
+            <Font size="16.0" fx:id="x1" />
+          </font>
         </Label>
-        <Pane layoutX="20.0" layoutY="83.0" prefHeight="161.0" prefWidth="447.0">
-            <children>
-                <Label layoutY="7.0" prefHeight="28.0" prefWidth="59.0" text="Term 1:">
-                    <font>
-                        <Font size="16.0" fx:id="x1"/>
-                    </font>
-                </Label>
-                <Label font="$x1" layoutX="217.0" layoutY="8.0" prefHeight="25.0" prefWidth="73.0" text="in Field 1:"/>
-                <Label font="$x1" layoutY="69.0" prefHeight="37.0" prefWidth="59.0" text="Term 2:"/>
-                <Label font="$x1" layoutX="218.0" layoutY="75.0" prefHeight="25.0" prefWidth="73.0" text="in Field 2:"/>
-                <TextField id="" fx:id="tfTerm1" layoutX="59.0" layoutY="8.0" prefWidth="150.0"/>
-                <ChoiceBox id="" fx:id="cbAndOrXor" layoutX="208.0" layoutY="40.0" prefHeight="25.0" prefWidth="73.0"/>
-                <TextField id="" fx:id="tfTerm2" layoutX="59.0" layoutY="75.0" prefWidth="150.0"/>
-                <Button id="" fx:id="btnSearch" layoutX="161.0" layoutY="113.0" mnemonicParsing="false"
-                        prefHeight="32.0" prefWidth="73.0" text="Search"/>
-                <Button id="" fx:id="btnReset" layoutX="254.0" layoutY="113.0" mnemonicParsing="false" prefHeight="32.0"
-                        prefWidth="73.0" text="Reset"/>
-                <ChoiceBox id="" fx:id="cbField1" layoutX="287.0" layoutY="7.0" prefWidth="150.0"/>
-                <ChoiceBox id="" fx:id="cbField2" layoutX="287.0" layoutY="75.0" prefWidth="150.0"/>
-            </children>
-        </Pane>
-        <Pane layoutX="20.0" layoutY="257.0" prefHeight="134.0" prefWidth="447.0">
-            <children>
-                <Button fx:id="btnPrintResult" layoutX="14.0" layoutY="9.0" mnemonicParsing="false" prefHeight="37.0"
-                        prefWidth="103.0" text="PrintResult"/>
-                <Button fx:id="btnDownload" layoutX="14.0" layoutY="56.0" mnemonicParsing="false" prefHeight="37.0"
-                        prefWidth="103.0" text="DownLoad"/>
-                <TextArea id="taFilePath" fx:id="taFileSave" layoutX="236.0" layoutY="55.0"
-                          prefHeight="38.000099999997474" prefWidth="196.0"/>
-                <Button id="btnDownload" fx:id="btnChooseFile" layoutX="130.0" layoutY="55.0" mnemonicParsing="false"
-                        prefHeight="38.0" prefWidth="94.0" text="ChooseFile"/>
-                <Label fx:id="lbWaiting" layoutX="130.0" layoutY="8.0" prefHeight="37.0" prefWidth="292.0"
-                       text="waiting..."/>
-                <RadioButton fx:id="rd10Patents" layoutX="14.0" layoutY="110.0" mnemonicParsing="false"
-                             text="10 patens"/>
-                <RadioButton fx:id="rd50Patents" layoutX="130.0" layoutY="110.0" mnemonicParsing="false"
-                             text="50 patents"/>
-                <RadioButton fx:id="rdAllPatents" layoutX="260.0" layoutY="110.0" mnemonicParsing="false"
-                             text="all patents"/>
-            </children>
-        </Pane>
-        <ListView fx:id="listResult" layoutX="484.0" layoutY="89.0" prefHeight="261.0001220703125"
-                  prefWidth="368.0001220703125"/>
-    </children>
+        <Label font="$x1" layoutX="234.0" layoutY="10.0" prefHeight="25.0" prefWidth="73.0" text="in Field 1:" />
+        <Label font="$x1" layoutX="0.0" layoutY="75.0" prefHeight="37.0" prefWidth="59.0" text="Term 2:" />
+        <Label font="$x1" layoutX="234.0" layoutY="83.0" prefHeight="25.0" prefWidth="73.0" text="in Field 2:" />
+        <TextField id="" fx:id="tfTerm1" layoutX="59.0" layoutY="8.0" prefWidth="150.0" />
+        <ChoiceBox id="" fx:id="cbAndOrXor" layoutX="209.0" layoutY="42.0" prefHeight="26.951171875" prefWidth="107.0" />
+        <TextField id="" fx:id="tfTerm2" layoutX="59.0" layoutY="81.0" prefWidth="150.0" />
+        <Button id="" fx:id="btnSearch" layoutX="161.0" layoutY="123.0" mnemonicParsing="false" onAction="#search" prefHeight="32.0" prefWidth="73.0" text="Search" />
+        <Button id="" fx:id="btnReset" layoutX="280.0" layoutY="123.0" mnemonicParsing="false" onAction="#reset" prefHeight="32.0" prefWidth="73.0" text="Reset" />
+        <ChoiceBox id="" fx:id="cbField1" layoutX="327.0" layoutY="8.0" prefWidth="150.0" />
+        <ChoiceBox id="" fx:id="cbField2" layoutX="327.0" layoutY="81.0" prefWidth="150.0" />
+      </children>
+    </Pane>
+    <Pane fx:id="pnOption" layoutX="31.0" layoutY="284.0" prefHeight="269.0" prefWidth="505.0">
+      <children>
+        <Button fx:id="btnPrintResult" layoutX="14.0" layoutY="9.0" mnemonicParsing="false" onAction="#printResult" prefHeight="37.0" prefWidth="123.0" text="PrintResult" />
+        <Button fx:id="btnDownload" layoutX="14.0" layoutY="98.0" mnemonicParsing="false" onAction="#download" prefHeight="37.0" prefWidth="123.0" text="DownLoad" />
+        <Button id="btnDownload" fx:id="btnChooseDirectory" layoutX="177.0" layoutY="98.0" mnemonicParsing="false" onAction="#chooseDirectory" prefHeight="38.0" prefWidth="165.0" text="ChooseDirectory" />
+        <Label id="lbWaiting" fx:id="lbFile" layoutX="14.0" layoutY="55.0" prefHeight="37.0" prefWidth="328.0" text="File path" />
+        <RadioButton id="rd10Patents" fx:id="rd5Patents" layoutX="14.0" layoutY="178.0" mnemonicParsing="false" selected="true" text="5 patents">
+          <toggleGroup>
+            <ToggleGroup fx:id="patents" />
+          </toggleGroup>
+        </RadioButton>
+        <RadioButton id="rd50Patents" fx:id="rd10Patents" layoutX="130.0" layoutY="178.0" mnemonicParsing="false" text="10 patents" toggleGroup="$patents" />
+        <RadioButton fx:id="rdAllPatents" layoutX="260.0" layoutY="178.0" mnemonicParsing="false" text="all patents" toggleGroup="$patents" />
+        <Label fx:id="lbDirectory" layoutX="14.0" layoutY="136.0" prefHeight="32.0" prefWidth="328.0" text="Directory path" />
+        <Label fx:id="lbDownResult" layoutX="14.0" layoutY="210.0" prefHeight="37.0" prefWidth="277.0" text="waiting..." />
+        <Button fx:id="btnChooseFile" layoutX="177.0" layoutY="9.0" mnemonicParsing="false" onAction="#chooseFile" prefHeight="38.0" prefWidth="165.0" text="ChooseFile" />
+      </children>
+    </Pane>
+    <ListView id="listResult" fx:id="lvResult" layoutX="561.0" layoutY="89.0" prefHeight="464.0" prefWidth="567.0001220703125" />
+    <Label fx:id="lbResult" layoutX="180.0" layoutY="246.0" text="xxx Patents" />
+  </children>
 </Pane>
